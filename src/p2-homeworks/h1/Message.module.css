@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+.Messege{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+.item {
+    padding: 7px 5px;
+    display: flex;
+    align-items: flex-end;
+    background-color: blueviolet;
+    width: 220px;
+    height: 60px;
+    padding-bottom: 10px;
+    border-radius: 2%;
+
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.angel {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(0,0,0, 1)0);
+
+}
+.wrapper {
+    position: relative;
+    padding: 6px 8px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px 5px 5px 0;
+
+}
+
+.name {
+    color: pink;
+    font-size: 14px;
+}
+
+.text{
+    color: pink;
+    font-size: 12px;
+}
+
+.time{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: gray;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+
+
