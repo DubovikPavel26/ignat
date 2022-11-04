@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(-200px);
+    transition-duration: 500ms ;
+    width: 240px;
+}
+
+.header:hover{
+    transform: translate(0);
+    transition-duration: 500ms ;
+}
+.block {
+    width: 20px;
+    height: 20px;
+    background-color: darkred;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    margin-right: 8px;
+    color: red;
+}
+
+.link:hover{
+    color: darkred;
+    box-shadow: 0 0 1px 1px darkred;
+}
+
+.active{
+    color: gold;
+    margin-right: 8px;
+    text-decoration: none;
+}
